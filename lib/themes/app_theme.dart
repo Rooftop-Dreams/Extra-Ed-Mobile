@@ -1,10 +1,10 @@
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:extraedmobile/theme/color/app_color_scheme.dart';
-import 'package:extraedmobile/theme/text/app_text_theme.dart';
-import 'package:extraedmobile/theme/text/app_typography.dart';
-import 'package:extraedmobile/utils/constants.dart';
+// import 'package:extraedmobile/theme/color/app_color_scheme.dart';
+// import 'package:extraedmobile/theme/text/app_text_theme.dart';
+// import 'package:extraedmobile/theme/text/app_typography.dart';
+// import 'package:extraedmobile/utils/constants.dart';
 
 Future<ThemeData> createTheme({
   Color? color,
