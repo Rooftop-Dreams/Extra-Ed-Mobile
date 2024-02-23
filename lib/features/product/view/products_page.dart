@@ -74,10 +74,10 @@ class ProductsPage extends StatelessWidget {
               // paymentUrl is loaded, so go to payment page
               if (state.paymentStatus == PaymentStatus.loaded) {
                 context.pop();
-                context
-                    .pushNamed(MyRouter().paymentRouteName, queryParameters: {
-                  'paymentUrl': state.paymentUrl,
-                });
+                // context
+                //     .pushNamed(MyRouter().paymentRouteName, queryParameters: {
+                //   'paymentUrl': state.paymentUrl,
+                // });
               }
               // payment was successful
               if (state.paymentStatus == PaymentStatus.success) {

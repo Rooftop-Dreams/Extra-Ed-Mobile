@@ -37,7 +37,7 @@ class _PaymentPageState extends State<PaymentPage> {
         child: Column(children: <Widget>[
           Expanded(
             child: InAppWebView(
-              initialUrlRequest: URLRequest(url: Uri.parse(widget.paymentUrl)),
+              // initialUrlRequest: URLRequest(url: Uri.parse(widget.paymentUrl)),
               onWebViewCreated: (controller) {
                 setState(() {
                   webViewController = controller;
