@@ -1,4 +1,4 @@
-import 'package:todo/features/news/domain/enties/article.dart';
+import 'package:extraedmobile/features/news/domain/enties/article.dart';
 
 class ArticelModel extends ArticleEntity {
   const ArticelModel({
